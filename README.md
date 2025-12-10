@@ -1,9 +1,9 @@
 # 📋 Task Board - Monolithic Architecture
+## นางสาว รัฐจิกาลณ์ กวงคำ 67543210063-3
 
 A simple Task Management System built using **Node.js, Express.js, SQLite, HTML, CSS, and JavaScript** in a **Monolithic Architecture** approach.  
 This project is part of ENGSE207 – Software Architecture (Week 3).
 
-## นางสาว รัฐจิกาลณ์ กวงคำ 67543210063-3
 
 ---
 
@@ -90,6 +90,7 @@ Database: SQLite
 Frontend: HTML, CSS, JavaScript
 
 Tools: npm, Git, VS Code
+
 
 
 
