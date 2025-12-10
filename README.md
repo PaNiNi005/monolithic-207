@@ -81,66 +81,20 @@ week3-monolithic/
 
 ---
 
-## 📸 Screenshots Checklist (What to Capture)
+## 📸 Screenshots 
 
-### 1️⃣ UI Screenshot (Task Board)
-Capture:
-- Main webpage  
-- Add Task form  
-- Task list  
+### 1️⃣ หน้าเว็บ Task Board
+<img width="1897" height="861" alt="image" src="https://github.com/user-attachments/assets/213fd820-248b-4abc-9b6c-5fdf3f60aebf" />
 
-### 2️⃣ Server Running (Terminal)
-Must show:
-- `Server running at http://localhost:3000`
-- `Database connected`
+### 2️⃣ ALL Tasks
+<img width="1893" height="863" alt="image" src="https://github.com/user-attachments/assets/4f6695e6-61b5-4f2d-b597-a50e044dbfb7" />
 
-### 3️⃣ API Responses (JSON)
-Capture response of:
-- `GET /api/tasks`
-- `POST /api/tasks`
-- `DELETE /api/tasks/:id`
-
-### 4️⃣ Project Folder Structure
-Show folders:
-```
-public/
-database/
-server.js
-```
-
-### 5️⃣ SQLite Database Output
-Run:
-```bash
-sqlite3 database/tasks.db "SELECT * FROM tasks;"
-```
-Capture screenshot of:
-- inserted sample data  
-- tasks added from UI  
-
----
-
-## 🗂️ Project Structure
-```
-week3-monolithic/
-├── server.js
-├── package.json
-├── database/
-│   ├── schema.sql
-│   └── tasks.db
-├── public/
-│   ├── index.html
-│   ├── style.css
-│   └── app.js
-├── .gitignore
-└── README.md
-```
-
----
 
 ## 📚 Technologies Used
 - **Backend:** Node.js + Express.js  
 - **Database:** SQLite  
 - **Frontend:** HTML, CSS, JavaScript  
 - **Tools:** npm, Git, VS Code  
+
 
 
