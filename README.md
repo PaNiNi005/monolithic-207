@@ -63,6 +63,24 @@ Server will run at:
 
 ---
 
+## 🗂️ Project Structure
+```
+week3-monolithic/
+├── server.js
+├── package.json
+├── database/
+│   ├── schema.sql
+│   └── tasks.db
+├── public/
+│   ├── index.html
+│   ├── style.css
+│   └── app.js
+├── .gitignore
+└── README.md
+```
+
+---
+
 ## 📸 Screenshots Checklist (What to Capture)
 
 ### 1️⃣ UI Screenshot (Task Board)
@@ -124,4 +142,5 @@ week3-monolithic/
 - **Database:** SQLite  
 - **Frontend:** HTML, CSS, JavaScript  
 - **Tools:** npm, Git, VS Code  
+
 
