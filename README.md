@@ -17,28 +17,41 @@ This project is part of ENGSE207 – Software Architecture (Week 3).
 ---
 ## 🚀 Setup & Run
 
-# 1. Install WSL2 (Windows only - PowerShell as Admin)
+
+### 1. Install WSL2 (Windows only – run PowerShell as Admin)
+```bash
 wsl --install -d Ubuntu-22.04
 wsl --set-default-version 2
+```
 
-# 2. Update System (in Ubuntu/WSL)
+### 2. Update System (inside Ubuntu/WSL)
+```bash
 sudo apt update && sudo apt upgrade -y
+```
 
-# 3. Install Node.js 20
+### 3. Install Node.js 20
+```bash
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs
+```
 
-# 4. Install SQLite
+### 4. Install SQLite
+```bash
 sudo apt install -y sqlite3
+```
 
-# 5. Install Git
+### 5. Install Git
+```bash
 sudo apt install -y git
+```
 
-# 6. Verify Installation
+### 6. Verify Installation
+```bash
 node --version    # Should show v20.x.x
 npm --version     # Should show 10.x.x
 sqlite3 --version # Should show 3.x.x
 git --version     # Should show 2.x.x
+```
 
 ### 2. Start the server
 ```bash
