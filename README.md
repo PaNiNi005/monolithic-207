@@ -15,61 +15,63 @@ This project is part of ENGSE207 – Software Architecture (Week 3).
 - SQLite database
 
 ---
-
 ## 🚀 Setup & Run
 
 ### 1. Install dependencies
 ```bash
 npm install
-2. Start the server
-bash
-คัดลอกโค้ด
+```
+
+### 2. Start the server
+```bash
 npm start
-Server will run at:
+```
+
+Server will run at:  
 👉 http://localhost:3000
 
-📸 Screenshots Checklist (What to Capture for Report)
-To complete the lab submission, capture these screenshots:
+---
 
-1️⃣ UI Screenshot (Task Board)
-The main webpage
+## 📸 Screenshots Checklist (What to Capture)
 
-Form for adding tasks
+### 1️⃣ UI Screenshot (Task Board)
+Capture:
+- Main webpage  
+- Add Task form  
+- Task list  
 
-Task list displayed
+### 2️⃣ Server Running (Terminal)
+Must show:
+- `Server running at http://localhost:3000`
+- `Database connected`
 
-2️⃣ Server Running (Terminal)
-Output after running npm start
+### 3️⃣ API Responses (JSON)
+Capture response of:
+- `GET /api/tasks`
+- `POST /api/tasks`
+- `DELETE /api/tasks/:id`
 
-Should show:
+### 4️⃣ Project Folder Structure
+Show folders:
+```
+public/
+database/
+server.js
+```
 
-Server running at http://localhost:3000
-
-Database connected
-
-3️⃣ API Responses
-Capture JSON result of:
-
-GET /api/tasks
-
-POST /api/tasks
-
-DELETE /api/tasks/:id
-
-4️⃣ Project Folder Structure
-Show folders: public/, database/, and server.js
-
-5️⃣ SQLite Database Output
-After running:
-
-bash
-คัดลอกโค้ด
+### 5️⃣ SQLite Database Output
+Run:
+```bash
 sqlite3 database/tasks.db "SELECT * FROM tasks;"
-Show inserted sample data + tasks created from UI
+```
+Capture screenshot of:
+- inserted sample data  
+- tasks added from UI  
 
-🗂️ Project Structure
-pgsql
-คัดลอกโค้ด
+---
+
+## 🗂️ Project Structure
+```
 week3-monolithic/
 ├── server.js
 ├── package.json
@@ -82,15 +84,12 @@ week3-monolithic/
 │   └── app.js
 ├── .gitignore
 └── README.md
-📚 Technologies Used
-Backend: Node.js + Express.js
+```
 
-Database: SQLite
+---
 
-Frontend: HTML, CSS, JavaScript
-
-Tools: npm, Git, VS Code
-
-
-
-
+## 📚 Technologies Used
+- **Backend:** Node.js + Express.js  
+- **Database:** SQLite  
+- **Frontend:** HTML, CSS, JavaScript  
+- **Tools:** npm, Git, VS Code  
